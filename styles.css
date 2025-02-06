@@ -69,6 +69,9 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
   overflow: hidden
 }
 
+body {
+  height: 100vh;
+}
 .hidden {
   display: none;
 }
@@ -79,8 +82,13 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
   font-weight: 900;
   text-align: center;
   padding: 40px 0;
+  color: #fff;
 }
 #clock {
   font-family: "Roboto", serif;
   text-align: center;
+  color: #fff;
+}
+.clock-time {
+  font-size: 50px;
 }
